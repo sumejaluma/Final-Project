@@ -6,16 +6,15 @@ const phoneInput = document.getElementById('phone');
 
 
 form.addEventListener('submit', function(event) {
-  event.preventDefault(); // Prevent the default form submission
+  event.preventDefault(); 
 
-  // Validate the name field
   if (nameInput.value.trim() === '') {
     alert('Please enter your name.');
     nameInput.focus();
     return false;
   }
 
-  // Validate the email field
+ 
   if (emailInput.value.trim() === '') {
     alert('Please enter your email.');
     emailInput.focus();
@@ -29,14 +28,14 @@ form.addEventListener('submit', function(event) {
   }
 
 
-  // Validate the message field
+ 
   if (messageInput.value.trim() === '') {
     alert('Please enter your message.');
     messageInput.focus();
     return false;
   }
 
-  // If all fields are valid, submit the form
+  
   form.submit();
 });
 

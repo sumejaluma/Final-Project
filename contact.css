@@ -1,8 +1,12 @@
+*{
+  background-color: #f1f1f1;
+}
 body {
     font-family: sans-serif;
   }
   h1{
-    text-align: center;
+    text-align: left;
+    margin-left: 70px;
 
   }
   #contact-form {
@@ -11,6 +15,8 @@ body {
     margin: auto;
     padding: 2%;
     border: 1px solid #f7f7f7;
+    float: left;
+    margin-left: 50px;
   }
   label {
     display: block;
@@ -54,5 +60,14 @@ body {
   button:hover {
     color: gray;
     background: #fff;
+  }
+  .info{
+    float: right;
+    margin-right: 250px;
+    margin-top: 50px;
+  }
+  .info img{
+    width: 20px;
+    height: 20px;
   }
 
