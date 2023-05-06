@@ -1,0 +1,152 @@
+
+
+*{
+
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+body{
+		background-color: #FAFAFA;
+}
+
+
+h2{
+	margin-left: 10%;
+	margin-top: 5%;
+	
+}
+.minus{
+	font-family: Algerian;
+}
+
+.jsh1{
+	margin-left:20px;
+	width: 280px;
+	height: 345px;
+	border-radius: 7px;
+	background-color: white;
+	transition: 0.5s;
+	
+
+
+}
+.jsh{
+display: flex;
+margin-left: 140px;
+
+
+}
+
+
+
+.button{
+	width: 240px;
+	height: 70px;
+	margin-left: 650px;
+}
+
+.jsh1:hover{
+	transform: scale(1.1);
+
+}
+
+
+
+
+.footer{
+	width: 100%;
+	height: 50px;
+	border: 30px;
+	background-color: black;
+	margin-top: 3px;
+	text-align: center;
+
+}
+.footer h4{
+	color: white;
+
+}
+
+
+
+.img1{
+	margin-top: -350px;
+	margin-left: 300px;
+}
+
+.size{
+	width: 80px;
+	height: 40px;
+	background-color: none;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	border: 1px solid #d9dadb;
+	float: right;
+	margin-right: 5px;
+
+}
+
+.sizes{
+	margin-top: -250px;
+	margin-right: 380px;
+}
+
+.he{
+	float: right;
+	margin-top: -300px;
+	margin-right: -360px;
+}
+
+.hf{
+	float: right;
+	margin-top: -240px;
+	margin-right: -48px;
+	color: grey;
+}
+.hff{
+	float: right;
+	margin-top: -190px;
+	margin-right: -21px;
+	color: grey;
+}
+.hfff{
+	float: right;
+	margin-top: -150px;
+	margin-right: -40px;
+	color: grey;
+}
+.h2f{
+	float: right;
+	margin-top: -110px;
+	margin-right: -40px;
+	color: grey;
+}
+
+.h3f{
+	float: right;
+	margin-top: -45px;
+	margin-right: -31px;
+	color: grey;
+}
+
+.button2{
+
+	height: 70px;
+	margin-left: 1110px;
+
+}
+
+
+.size:hover{
+	border: 1px solid #3c3d3d;
+}
+
+
+
+
+
+
+
